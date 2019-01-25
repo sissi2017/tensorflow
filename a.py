@@ -1,2 +1,0 @@
-# wangc
-print("hhhhhhh")
