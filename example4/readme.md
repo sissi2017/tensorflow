@@ -22,7 +22,7 @@ cem = tf.reduce_mean(ce)
 learning rate:
 学习率过大，会导致待优化的参数在最小值附近波动，不收敛;学习率过小，会导致待优化的参数收 敛缓慢。
 
-learining_rate = LEARNING_RATE_BASE*LEARNING_RATE_DECAY*(global_step/LEARNING_RATE_BATCH_SIZE)
+learining_rate = LEARNING_RATE_BASE\*LEARNING_RATE_DECAY\*(global_step/LEARNING_RATE_BATCH_SIZE)
 
 global_step = tf.Variable(0,trainable = Flase)
 learning_rate = tf.train.exponential_decay(
